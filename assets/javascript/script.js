@@ -49,10 +49,7 @@ function checkCharSet(){
   if(confirm("Would you like your password to include numerical characters?")){
     output+="0123456798";
   }
-  if(confirm("Would you like your password to include special characters?")){
-    output+="'!#$%&()*+=-_.,;:<>@?[]\\^`{}|~\"";
-  }
-  output+=prompt("Would you like any other characters allowed in your password");
+  output+=prompt("Please list any other special characters you would like in your password.\n Suggestions: '!#$%&()*+=-_.,;:<>@?[]\\^`{}|~\"");
   if(output === ""){
     alert("Please choose at least one set of characters to include in your password.")
   }
