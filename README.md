@@ -15,6 +15,7 @@ This project will allow users to generate secure passwords by selecting an enter
 
 ## Future iterations
 The major flaw of this application is that it uses Javascript only to get user input. These options would be best addressed through a form like a list of check boxes or text entry that only allows numbers, rather than being forced to check that the input is a number using Javascript. The prompt interface is the best purely Javascript tool for this job but it would be highly preferrable if we could use HTML and CSS to change the password generator screen to have a regular form or even a custom text entry for which special characters the user wants in their password.
+For the passwords generated themselves, a "weakness" of sorts is that the system makes letters twice as likely to be pulled as any other individual system. In theory a user could double input any choices they want weighted more heavily in the "any other characters" box but it would not be particularly programmatically hard to alter the code such that the letters are not double weighted by default.
 
 ## A note on sources
 The CSS and HTML for this project were provided as part of an assignment. I considered the point of the assignment to alter the Javascript, and thus did not alter either of them. The Javascript file's line 1-13 weren't altered, but the remainder of the code is my own construction.
