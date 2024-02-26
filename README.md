@@ -15,6 +15,7 @@ This project will allow users to generate secure passwords by selecting an enter
 
 ## Future iterations
 The major flaw of this application is that it uses Javascript only to get user input. These options would be best addressed through a form like a list of check boxes or text entry that only allows numbers, rather than being forced to check that the input is a number using Javascript. The prompt interface is the best purely Javascript tool for this job but it would be highly preferrable if we could use HTML and CSS to change the password generator screen to have a regular form or even a custom text entry for which special characters the user wants in their password.
+For the passwords generated themselves the code could also be altered to make the 
 
 MIT License
 
